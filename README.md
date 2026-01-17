@@ -4,7 +4,9 @@ A modern, interactive health journal built with **Blazor Web App (.NET 10)**.
 
 This application was designed to solve a real-world problem: tracking the correlation between specific supplements (like Manuka Honey, Collagen, Omega 3) and stomach symptoms (Gastritis/Esophagitis) to identify triggers and improve recovery.
 
-![Dashboard Screenshot](path/to/your/dashboard-image.png)
+<img width="2005" height="235" alt="image" src="https://github.com/user-attachments/assets/09fa87a9-0669-43d8-b02e-78ee940cf7d1" />
+
+
 ## ✨ Key Features
 
 * **📝 Daily Symptom Logging:** Record supplements taken and the resulting physical sensation.
@@ -46,11 +48,13 @@ This application was designed to solve a real-world problem: tracking the correl
 ## 📸 Screenshots
 
 ### The Tracker Interface
-![Tracker Form](path/to/your/form-image.png)
+<img width="2548" height="1348" alt="image" src="https://github.com/user-attachments/assets/c3e546c8-3413-4e18-b0cc-943fc3ae253c" />
+
 
 ### Export Feature
 Generates a clean CSV file for medical review:
-![Excel Export](path/to/your/excel-image.png)
+<img width="2501" height="1085" alt="image" src="https://github.com/user-attachments/assets/1b3c2fe2-be67-4c2c-9c45-2e947df1d160" />
+
 
 ## 👤 Author
 

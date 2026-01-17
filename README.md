@@ -49,6 +49,8 @@ This application was designed to solve a real-world problem: tracking the correl
 ## 📸 Screenshots
 
 ### The Tracker Interface
+<img width="2518" height="1335" alt="image" src="https://github.com/user-attachments/assets/15cd1823-24ab-4fa5-a3a8-7379a1ad253d" />
+#
 <img width="2527" height="1343" alt="image" src="https://github.com/user-attachments/assets/d29a5cd7-8a33-4d01-9dd5-9f5a23a51849" />
 
 

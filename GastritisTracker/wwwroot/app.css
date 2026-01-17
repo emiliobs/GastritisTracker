@@ -71,3 +71,165 @@ h1:focus {
 .app-title {
     vertical-align: middle;
 }
+
+/* --- MODERN UI THEME FOR GASTRITIS TRACKER --- */
+
+/* 1. Importar una fuente moderna (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5; /* Un gris muy suave, casi blanco */
+    color: #333;
+}
+
+/* 2. Tarjetas Flotantes (Glass-like effect) */
+.card {
+    border: none; /* Adiós bordes duros */
+    border-radius: 16px; /* Esquinas muy redondeadas */
+    background: white;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01); /* Sombra difuminada premium */
+    transition: transform 0.2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-3px); /* Pequeño efecto de elevación al pasar el mouse */
+    }
+
+/* 3. Encabezados de Tarjetas más limpios */
+.card-header {
+    background-color: white; /* Fondo blanco en lugar de gris */
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 600;
+    border-radius: 16px 16px 0 0 !important;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    color: #444;
+}
+
+/* 4. Inputs y Selects modernos */
+.form-control, .form-select {
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px; /* Más espacio interno */
+    background-color: #f9f9f9;
+}
+
+    .form-control:focus, .form-select:focus {
+        background-color: white;
+        box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.15); /* Anillo de enfoque suave */
+        border-color: #0d6efd;
+    }
+
+/* 5. Botones con gradiente */
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd 0%, #0043a8 100%);
+    border: none;
+    border-radius: 50px; /* Botones tipo píldora */
+    padding: 10px 25px;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #198754 0%, #146c43 100%);
+    border: none;
+    border-radius: 12px; /* Botón de guardar un poco más cuadrado pero suave */
+    box-shadow: 0 4px 15px rgba(25, 135, 84, 0.3);
+}
+
+/* 6. Tabla minimalista */
+.table {
+    border-collapse: separate;
+    border-spacing: 0 8px; /* Espacio entre filas */
+}
+
+    .table thead th {
+        border: none;
+        color: #8898aa;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        padding-bottom: 15px;
+    }
+
+    .table tbody tr {
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        border-radius: 10px;
+    }
+
+    .table tbody td {
+        border: none;
+        vertical-align: middle;
+        padding: 15px;
+    }
+
+        .table tbody td:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .table tbody td:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+/* Badges Suaves */
+.badge-soft-success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.badge-soft-danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.badge-soft-secondary {
+    background-color: #e2e3e5;
+    color: #41464b;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+/* --- ESTILOS PARA LA HOME PAGE --- */
+
+.hero-section {
+    /* Un gradiente moderno de azul médico a violeta suave */
+    background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(13, 110, 253, 0.3);
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+.tip-card {
+    border-left: 5px solid #198754; /* Borde verde medicinal */
+    background-color: #f8fcf9;
+}

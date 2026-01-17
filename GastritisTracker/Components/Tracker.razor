@@ -46,7 +46,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="card text-white bg-wa mb-3 shadow-sm">
+                <div class="card text-white bg-warning mb-3 shadow-sm">
                     <div class="card-header">Top Item</div>
                     <div class="card-body">
                         <h2 class="card-title text-center mt-2">
@@ -147,15 +147,15 @@
                                                 <td>
                                                     @if (log.Feeling.ToLower().Contains("pain") || log.Feeling.ToLower().Contains("burning"))
                                                     {
-                                                        <span class="badge bg-danger">@log.Feeling</span>
+                                                        <span class="badge badge-soft-danger">@log.Feeling</span>
                                                     }
                                                     else if (log.Feeling.ToLower().Contains("good") || log.Feeling.ToLower().Contains("great"))
                                                     {
-                                                        <span class="badge bg-success">@log.Feeling</span>
+                                                        <span class="badge badge-soft-success">@log.Feeling</span>
                                                     }
                                                     else
                                                     {
-                                                        <span class="badge bg-secondary">@log.Feeling</span>
+                                                        <span class="badge badge-soft-secondary">@log.Feeling</span>
                                                     }
                                                 </td>
                                                 <td>
